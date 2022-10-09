@@ -14,7 +14,7 @@ class FilamentThemeColorProvider extends PluginServiceProvider
     public static string $name = 'filament-theme-color';
 
     protected array $scripts = [
-        'filament-theme-color-scripts' => __DIR__ . '/../public/build/assets/theme-color-changer.34a80b1a.js',
+        'filament-theme-color-scripts' => __DIR__ . '/../public/build/assets/theme-color-changer.923dc927.js',
     ];
 
     public function configurePackage(Package $package): void

@@ -35,26 +35,26 @@ function changeThemeColor(hexCode1, hexCode2) {
     nstyle.textContent = `
     @layer base{
         :root{
-            --theme-var-50:`+ palette.primary[50][0] + " " + palette.primary[50][1] + " " + palette.primary[50][2] + `;
-            --theme-var-100:`+ palette.primary[400][0] + " " + palette.primary[100][1] + " " + palette.primary[100][2] + `;
-            --theme-var-200:`+ palette.primary[200][0] + " " + palette.primary[200][1] + " " + palette.primary[200][2] + `;
-            --theme-var-300:`+ palette.primary[300][0] + " " + palette.primary[300][1] + " " + palette.primary[300][2] + `;
-            --theme-var-400:`+ palette.primary[400][0] + " " + palette.primary[400][1] + " " + palette.primary[400][2] + `;
-            --theme-var-500:`+ palette.primary[500][0] + " " + palette.primary[500][1] + " " + palette.primary[500][2] + `;
-            --theme-var-600:`+ palette.primary[600][0] + " " + palette.primary[600][1] + " " + palette.primary[600][2] + `;
-            --theme-var-700:`+ palette.primary[700][0] + " " + palette.primary[700][1] + " " + palette.primary[700][2] + `;
-            --theme-var-800:`+ palette.primary[800][0] + " " + palette.primary[800][1] + " " + palette.primary[800][2] + `;
-            --theme-var-900:`+ palette.primary[900][0] + " " + palette.primary[900][1] + " " + palette.primary[900][2] + `;
-            --theme-secondary-var-50:`+ palette2.primary[50][0] + " " + palette2.primary[50][1] + " " + palette2.primary[50][2] + `;
-            --theme-secondary-var-100:`+ palette2.primary[400][0] + " " + palette2.primary[100][1] + " " + palette2.primary[100][2] + `;
-            --theme-secondary-var-200:`+ palette2.primary[200][0] + " " + palette2.primary[200][1] + " " + palette2.primary[200][2] + `;
-            --theme-secondary-var-300:`+ palette2.primary[300][0] + " " + palette2.primary[300][1] + " " + palette2.primary[300][2] + `;
-            --theme-secondary-var-400:`+ palette2.primary[400][0] + " " + palette2.primary[400][1] + " " + palette2.primary[400][2] + `;
-            --theme-secondary-var-500:`+ palette2.primary[500][0] + " " + palette2.primary[500][1] + " " + palette2.primary[500][2] + `;
-            --theme-secondary-var-600:`+ palette2.primary[600][0] + " " + palette2.primary[600][1] + " " + palette2.primary[600][2] + `;
-            --theme-secondary-var-700:`+ palette2.primary[700][0] + " " + palette2.primary[700][1] + " " + palette2.primary[700][2] + `;
-            --theme-secondary-var-800:`+ palette2.primary[800][0] + " " + palette2.primary[800][1] + " " + palette2.primary[800][2] + `;
-            --theme-secondary-var-900:`+ palette2.primary[900][0] + " " + palette2.primary[900][1] + " " + palette2.primary[900][2] + `;
+            --theme-primary-color-var-50:`+ palette.primary[50][0] + " " + palette.primary[50][1] + " " + palette.primary[50][2] + `;
+            --theme-primary-color-var-100:`+ palette.primary[400][0] + " " + palette.primary[100][1] + " " + palette.primary[100][2] + `;
+            --theme-primary-color-var-200:`+ palette.primary[200][0] + " " + palette.primary[200][1] + " " + palette.primary[200][2] + `;
+            --theme-primary-color-var-300:`+ palette.primary[300][0] + " " + palette.primary[300][1] + " " + palette.primary[300][2] + `;
+            --theme-primary-color-var-400:`+ palette.primary[400][0] + " " + palette.primary[400][1] + " " + palette.primary[400][2] + `;
+            --theme-primary-color-var-500:`+ palette.primary[500][0] + " " + palette.primary[500][1] + " " + palette.primary[500][2] + `;
+            --theme-primary-color-var-600:`+ palette.primary[600][0] + " " + palette.primary[600][1] + " " + palette.primary[600][2] + `;
+            --theme-primary-color-var-700:`+ palette.primary[700][0] + " " + palette.primary[700][1] + " " + palette.primary[700][2] + `;
+            --theme-primary-color-var-800:`+ palette.primary[800][0] + " " + palette.primary[800][1] + " " + palette.primary[800][2] + `;
+            --theme-primary-color-var-900:`+ palette.primary[900][0] + " " + palette.primary[900][1] + " " + palette.primary[900][2] + `;
+            --theme-secondary-color-var-50:`+ palette2.primary[50][0] + " " + palette2.primary[50][1] + " " + palette2.primary[50][2] + `;
+            --theme-secondary-color-var-100:`+ palette2.primary[400][0] + " " + palette2.primary[100][1] + " " + palette2.primary[100][2] + `;
+            --theme-secondary-color-var-200:`+ palette2.primary[200][0] + " " + palette2.primary[200][1] + " " + palette2.primary[200][2] + `;
+            --theme-secondary-color-var-300:`+ palette2.primary[300][0] + " " + palette2.primary[300][1] + " " + palette2.primary[300][2] + `;
+            --theme-secondary-color-var-400:`+ palette2.primary[400][0] + " " + palette2.primary[400][1] + " " + palette2.primary[400][2] + `;
+            --theme-secondary-color-var-500:`+ palette2.primary[500][0] + " " + palette2.primary[500][1] + " " + palette2.primary[500][2] + `;
+            --theme-secondary-color-var-600:`+ palette2.primary[600][0] + " " + palette2.primary[600][1] + " " + palette2.primary[600][2] + `;
+            --theme-secondary-color-var-700:`+ palette2.primary[700][0] + " " + palette2.primary[700][1] + " " + palette2.primary[700][2] + `;
+            --theme-secondary-color-var-800:`+ palette2.primary[800][0] + " " + palette2.primary[800][1] + " " + palette2.primary[800][2] + `;
+            --theme-secondary-color-var-900:`+ palette2.primary[900][0] + " " + palette2.primary[900][1] + " " + palette2.primary[900][2] + `;
         }
     }
     `;
