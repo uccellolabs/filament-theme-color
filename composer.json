@@ -1,0 +1,37 @@
+{
+  "name": "uccellolabs/filament-theme-color",
+  "description": "Easy way to change filament theme color on the fly.",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "filament/filament": "^2.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Uccellolabs\\FilamentThemeColor\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nathan DUDREUIL",
+      "email": "nathan.dudreuil@uccellolabs.com"
+    },
+    {
+      "name": "Jonathan SARDO",
+      "email": "jonathan@uccellolabs.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Uccellolabs\\FilamentThemeColor\\FilamentThemeColorProvider"
+      ]
+    }
+  },
+  "prefer-stable": true
+}
