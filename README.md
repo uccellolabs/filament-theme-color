@@ -105,9 +105,9 @@ public function boot()
 You can now use all the primary and secondary colors of the generated palettes:
 
 ```html
-<button class="bg-primary-200"></button>
+<button class="bg-primary-200">Click me</button>
 
-<span class="text-secondary-500"></span>
+<span class="text-secondary-500">I'm awesome!</span>
 ```
 
 If you want to do a live preview, it is possible to change the color with a custom event.
